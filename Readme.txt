@@ -1,14 +1,13 @@
-Documnent Browser for blind
+Documnent Browser for blind (Software Eng project)
 				
 By:
 Ankit Bagde -17CS30009
-Naimesh Pramanik - 17CS30023
 
 Assisted by :
 Dr. Debasis Samanta
 Ms. Sumana Maiti
 
-DEmo video link ----  https://drive.google.com/file/d/1F8JsJ1HYw81mM-Kkn66hsAMv6adi2Q0A/view?usp=sharing
+Demo video link ----  https://drive.google.com/file/d/1F8JsJ1HYw81mM-Kkn66hsAMv6adi2Q0A/view?usp=sharing
 
 About the project:
 The project is webapp which will help a visually impaired individual to search Google with minimum use of keys of keyboard.
@@ -23,6 +22,8 @@ Prerequisites - Python3
 pip3 install Flask
 pip3 install gTTS
 pip3 install SpeechRecognition
+pip3 install python-pyaudio python3-pyaudio (in app folder)
+pip3 install pyaudio (in app folder)
 pip3 install beautifulsoup4
 pip3 install html-table-extractor
 
