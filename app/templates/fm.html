@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google for blind</title>
+<link rel="icon" href="https://png.pngtree.com/svg/20170606/google__1171282.png" type="image/icon type">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="row" style="margin-top: 250px; margin-left:150px">
+      <div class="col-md-12">
+        <img src="http://www.google.com/logos/doodles/2016/2016-doodle-fruit-games-day-7-5190998188621824-hp2x.gif" style="margin-left: 130px">
+      </div>
+      <div class="col-md-7" style="text-align: center;margin-left: 155px">
+        
+        <form method="POST" id="form_yes"style="display: block;">
+          <input id='Enter'type="submit" name="btn" value="search?" style="size: 200%;background: green;color: white;padding: 15px;border-radius: 20px ;font-size: 150%;font-weight: bold;margin-top: 30px">
+		  <input id='1' type="submit" name="btn" value="speak again?" style="size: 200%;background: green;color: white;padding: 15px;border-radius: 20px ;font-size: 150%;font-weight: bold;margin-top: 30px;margin-left: 40px">
+        </form>
+      </div>
+    </div>
+
+  </div>
+  
+<script>
+document.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("Enter").click();
+  }
+});
+  </script>
+<script>
+document.addEventListener("keyup", function(event) {
+  if (event.keyCode === 49) {
+   event.preventDefault();
+   document.getElementById("1").click();
+  }
+if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("Enter").click();
+  }
+});
+</script>
+</body>
+</html>
+
+

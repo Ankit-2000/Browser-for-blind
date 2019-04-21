@@ -1,0 +1,10 @@
+{%if url %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<button id="postYourAdd" onclick="postYourAdd()">OPEN</button>
+<iframe id="forPostyouradd" data-src={{url}} src="about:blank" style="background:#ffffff;width: 90%; height: 400px; margin-left: 100px; margin-top: 20px"></iframe>
+{%endif%}
+<script >
+	function postYourAdd () {
+    var iframe = $("#forPostyouradd");
+    iframe.attr("src", iframe.data("src")); 
+}

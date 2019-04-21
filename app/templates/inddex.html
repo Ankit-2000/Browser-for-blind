@@ -1,0 +1,10 @@
+<form method="POST" id="form_yes"style="display: block;">
+	<input type="submit" id="Enter" name="btn" value="search audio">
+</form>
+<script>
+document.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("Enter").click();
+  }
+  </script>
