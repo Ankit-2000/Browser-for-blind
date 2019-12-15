@@ -19,13 +19,13 @@ Language used - Flask(Python), HTML, CSS, Javascript, jQuery
 Prerequisites - Python3
 
 ----Run the following commands first---
-pip3 install Flask
-pip3 install gTTS
-pip3 install SpeechRecognition
-pip3 install python-pyaudio python3-pyaudio (in app folder)
-pip3 install pyaudio (in app folder)
-pip3 install beautifulsoup4
-pip3 install html-table-extractor
+* pip3 install Flask
+* pip3 install gTTS
+* pip3 install SpeechRecognition
+* pip3 install python-pyaudio python3-pyaudio (in app folder)
+* pip3 install pyaudio (in app folder)
+* pip3 install beautifulsoup4
+* pip3 install html-table-extractor
 
 Run the webapp by : python3 app.py
 
@@ -34,7 +34,8 @@ How will the webapp work?
 Firstly, it will ask the blind user to speak of keyword he/she want to search.
 After confirming the keyword, it will search the google and will read the results of the google search page in the following manner:
 
-Eg- if keyword = document:
+Eg- if keyword = document :
+
 System - linkelements of the document are :
 1. document-wikipedia
 2. google docs
