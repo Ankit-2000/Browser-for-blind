@@ -3,15 +3,15 @@ Documnent Browser for blind (Software Eng project)
 By:
 Ankit Bagde -17CS30009
 
-Assisted by :
-Dr. Debasis Samanta
-Ms. Sumana Maiti
+Under supervision of :
+* Prof. Debasis Samanta
+* Sumana Maiti
 
 Demo video link ----  https://drive.google.com/file/d/1F8JsJ1HYw81mM-Kkn66hsAMv6adi2Q0A/view?usp=sharing
 
 About the project:
-The project is webapp which will help a visually impaired individual to search Google with minimum use of keys of keyboard.
-For complete opreation only number keys and enter key is used, which can easily accessible by blind user
+* The project is webapp which will help a visually impaired individual to search Google with minimum use of keys of keyboard.
+* For complete opreation only number keys and enter key is used, which can easily accessible by blind user
 
 
 Language used - Flask(Python), HTML, CSS, Javascript, jQuery
@@ -41,9 +41,9 @@ System - linkelements of the document are :
 2. google docs
 ....
 
-It will now ask the user to input the number of link he wishes to navigate.
-Back option is also provided.
-For input, number keys are used.
+It will now ask the user to input the number of link he wishes to navigate. \
+Back option is also provided. \
+For input, number keys are used. \
 
 After navigating to a particular page, webscraping is used to extract data from the webpage.
 Now user has three options :
