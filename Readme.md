@@ -19,14 +19,18 @@ Language used - Flask(Python), HTML, CSS, Javascript, jQuery
 Prerequisites - Python3
 
 ----Run the following commands first---
-* pip3 install Flask
-* pip3 install gTTS
-* pip3 install SpeechRecognition
-* pip3 install python-pyaudio python3-pyaudio (in app folder)
-* pip3 install pyaudio (in app folder)
-* pip3 install beautifulsoup4
-* pip3 install html-table-extractor
-
+```
+pip3 install Flask
+pip3 install gTTS
+pip3 install SpeechRecognition
+pip3 install beautifulsoup4
+pip3 install html-table-extractor
+```
+(in app folder)
+```
+pip3 install python-pyaudio python3-pyaudio
+pip3 install pyaudio
+```
 Run the webapp by : python3 app.py
 
 How will the webapp work?
